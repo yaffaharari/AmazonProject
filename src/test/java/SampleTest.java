@@ -12,9 +12,8 @@ public class SampleTest extends BaseTest{
         HomePageEvents homePageEvents = new HomePageEvents();
         homePageEvents.clickOnSignInButton();
 
-       // LoginPageEvents loginPageEvents = new LoginPageEvents();
-       // loginPageEvents.verifyLoginPageOpenedOrNot();
-       // loginPageEvents.enterEmailId();
+     /*   LoginPageEvents loginPageEvents = new LoginPageEvents();
+        loginPageEvents.verifyLoginPageOpenedOrNot();
+        loginPageEvents.enterEmailId();*/
     }
-
 }

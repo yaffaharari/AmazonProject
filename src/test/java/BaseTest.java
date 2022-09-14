@@ -23,8 +23,6 @@ import java.util.concurrent.TimeUnit;
 public class BaseTest {
 
     public static WebDriver driver;
-
-    public static WebDriverWait wait;
     public ExtentSparkReporter htmlReporter;
     public static ExtentReports extent;
     public static ExtentTest logger;
@@ -76,7 +74,7 @@ public class BaseTest {
     public void setupDriver(String browserName){
         if(browserName.equalsIgnoreCase("chrome")){
            // System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir") + File.separator + "drivers" + File.separator + "chromedriver");
-            System.setProperty("webdriver.chrome.driver", "C:\\Users\\Yaffa\\Desktop\\Yaffa\\Automation\\AmazonProject\\drivers\\chromedriver.exe");
+            System.setProperty("webdriver.chrome.driver", "C:\\Users\\User\\Desktop\\Yaffa\\Automation\\AmazonProject\\drivers\\chromedriver.exe");
             driver = new ChromeDriver();
             // wait = new WebDriverWait(BaseTest.driver, 100);
         }else if ((browserName.equalsIgnoreCase("firefox"))){
