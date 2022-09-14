@@ -11,9 +11,9 @@ public class SampleTest extends BaseTest{
     public void sampleMethodForEmailEntering(){
         HomePageEvents homePageEvents = new HomePageEvents();
         homePageEvents.clickOnSignInButton();
-
-     /*   LoginPageEvents loginPageEvents = new LoginPageEvents();
+//-------
+        LoginPageEvents loginPageEvents = new LoginPageEvents();
         loginPageEvents.verifyLoginPageOpenedOrNot();
-        loginPageEvents.enterEmailId();*/
+        loginPageEvents.enterEmailId();
     }
 }
