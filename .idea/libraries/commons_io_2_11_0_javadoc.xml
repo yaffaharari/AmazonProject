@@ -1,0 +1,29 @@
+<component name="libraryTable">
+  <library name="commons-io-2.11.0-javadoc">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/Downloads/commons-io-2.11.0-bin/commons-io-2.11.0/commons-io-2.11.0-tests.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/commons-io-2.11.0-bin/commons-io-2.11.0/commons-io-2.11.0.jar!/" />
+      <root url="file://$PROJECT_DIR$/../../../.." />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/Downloads/commons-io-2.11.0-bin/commons-io-2.11.0/commons-io-2.11.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/Downloads/commons-io-2.11.0-bin/commons-io-2.11.0/commons-io-2.11.0-sources.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/commons-io-2.11.0-bin/commons-io-2.11.0/commons-io-2.11.0-test-sources.jar!/" />
+      <root url="file://$PROJECT_DIR$/../../AutomationTest1/src" />
+      <root url="file://$PROJECT_DIR$/src" />
+      <root url="file://$PROJECT_DIR$/../../selenium-test-automation-boilerplate/src/main/java" />
+      <root url="file://$PROJECT_DIR$/../../selenium-test-automation-boilerplate/src/test/java" />
+      <root url="file://$PROJECT_DIR$/../../../Azure/azure-function-examples/src/main/java" />
+      <root url="file://$PROJECT_DIR$/../../../Azure/azure-httpfunction-examples/src/main/java" />
+      <root url="file://$PROJECT_DIR$/../../../LeetCodeExercise/LeetCode1Pro/src" />
+      <root url="file://$PROJECT_DIR$/../../../android/NewsApp/app/build/generated/ap_generated_sources/debug/out" />
+      <root url="file://$PROJECT_DIR$/../../../android/NewsApp/app/build/generated/data_binding_base_class_source_out/debug/out" />
+      <root url="file://$PROJECT_DIR$/../../../android/NewsApp/app/build/generated/source/buildConfig/debug" />
+      <root url="file://$PROJECT_DIR$/../../../android/NewsApp/app/build/generated/source/dataBinding/trigger/debug" />
+      <root url="file://$PROJECT_DIR$/../../../android/NewsApp/app/src/main/java" />
+      <root url="file://$PROJECT_DIR$/../../../android/NewsApp/app/src/test/java" />
+    </SOURCES>
+  </library>
+</component>
