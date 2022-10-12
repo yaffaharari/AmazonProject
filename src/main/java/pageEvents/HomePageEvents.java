@@ -17,6 +17,7 @@ public class HomePageEvents {
 
     public void clickOnSignInButton(){
         ElementFetch elementFetch = new ElementFetch();
+        BaseTest.logger.info("Clicking on sign in button");
         elementFetch.getWebElement("XPATH",
                 HomePageElements.signInButton).click();
     }

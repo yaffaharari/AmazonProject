@@ -1,7 +1,6 @@
 package main.java.utils;
 
 
-
 import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
@@ -30,7 +29,8 @@ public class SuiteListener implements ITestListener, IAnnotationTransformer {
 
     @Override
     public void onTestFailure(ITestResult iTestResult) {
-        String fileName = System.getProperty("user.dir" + File.separator + "screenshots" + File.separator + iTestResult.getMethod().getMethodName());
+       // String fileName = System.getProperty("user.dir" + File.separator + "screenshots" + File.separator + iTestResult.getMethod().getMethodName());
+        String fileName = "C:\\Users\\Yaffa\\Desktop\\Yaffa\\Automation\\AmazonProject\\screenshots\\sampleMethodForEmailEntering";
         File f = ((TakesScreenshot) BaseTest.driver).getScreenshotAs(OutputType.FILE);
 
         //FileHandler.copy(src, dest);

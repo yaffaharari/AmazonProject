@@ -63,6 +63,12 @@ public class BaseTest {
             Markup m = MarkupHelper.createLabel(logText, ExtentColor.RED);
             logger.log(Status.PASS, m);
         }
+        else if (result.getStatus() == ITestResult.SKIP){
+            String methodName = result.getMethod().getMethodName();
+            String logText = "Test Case: " + methodName + "Skipped";
+            Markup m = MarkupHelper.createLabel(logText, ExtentColor.YELLOW);
+            logger.log(Status.SKIP, m);
+        }
 
         driver.quit();
     }
@@ -74,7 +80,7 @@ public class BaseTest {
     public void setupDriver(String browserName){
         if(browserName.equalsIgnoreCase("chrome")){
            // System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir") + File.separator + "drivers" + File.separator + "chromedriver");
-            System.setProperty("webdriver.chrome.driver", "C:\\Users\\User\\Desktop\\Yaffa\\Automation\\AmazonProject\\drivers\\chromedriver.exe");
+            System.setProperty("webdriver.chrome.driver", "C:\\Users\\Yaffa\\Desktop\\Yaffa\\Automation\\AmazonProject\\drivers\\chromedriver.exe");
             driver = new ChromeDriver();
             // wait = new WebDriverWait(BaseTest.driver, 100);
         }else if ((browserName.equalsIgnoreCase("firefox"))){
